@@ -1,0 +1,9 @@
+{
+    "name": "Família Muniz",
+    
+    "autoload": {
+        "psr-4":{
+            "app\\":"app"
+        }
+    }
+}
