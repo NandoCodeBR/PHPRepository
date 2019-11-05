@@ -9,5 +9,6 @@ $dataFinal = ($d2 - $d1) /86400;
 // caso a data 2 seja menor que a data 1
 if($dataFinal < 0)
 $dataFinal = $dataFinal * -1;
-echo "Entre as duas datas informadas, existem $dataFinal dias.";
+$datafinalform = number_format($dataFinal, 0);
+echo "Entre as duas datas informadas, existem $datafinalform dias.";
 ?>
